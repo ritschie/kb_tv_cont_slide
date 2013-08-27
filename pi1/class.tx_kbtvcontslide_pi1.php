@@ -42,11 +42,6 @@
  *
  */
 
-require_once(PATH_tslib.'class.tslib_pibase.php');
-require_once(PATH_t3lib.'class.t3lib_div.php');
-require_once(PATH_t3lib.'class.t3lib_befunc.php');
-
-
 class tx_kbtvcontslide_pi1 extends tslib_pibase {
 	var $prefixId = 'tx_kbtvcontslide_pi1';		// Same as class name
 	var $scriptRelPath = 'pi1/class.tx_kbtvcontslide_pi1.php';	// Path to this script relative to the extension dir.
